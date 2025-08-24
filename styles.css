@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 450px;
+  background-color: rgb(219, 196, 65);
+  margin: 15% auto;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  font-size: large;
+  font-weight: bolder;
+}
+a {
+  color: rgb(160, 36, 36);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(236, 227, 223);
+}
